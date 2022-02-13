@@ -1,0 +1,7 @@
+.production__companies_card {
+    width: 49%;
+    text-align: center;
+    box-shadow: 0 0 5px 0 #460072;
+    box-sizing: border-box;
+    padding: 8px;
+}

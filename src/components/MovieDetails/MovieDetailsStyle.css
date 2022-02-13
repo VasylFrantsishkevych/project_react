@@ -1,0 +1,71 @@
+.movie-details {
+    margin-top: 25px;
+}
+.movie-details__card {
+    width:70%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px -1px #460072;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.movie-details__card_description {
+    display: flex;
+}
+.movie-details__card_title {
+    height: 35px;
+    background-color: #460072;
+    border-bottom: 1px solid #e7e7e7;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: lightgray;
+    padding-left: 25px;
+}
+.movie-details__card_info {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.movie-details__card_info p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.movie-details__card_info span {
+    font-weight: bold;
+}
+.movie-details__card_vote {
+    display: flex;
+    column-gap: 20px;
+}
+.movie-details__other {
+    width:70%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.movie-details__other p {
+    text-indent: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+.production_companies h2 {
+    text-align: center;
+}
+.production_companies_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 13px;
+}
+.production_companies h3 {
+    text-align: center;
+}
+.movie-details__card_rating {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}

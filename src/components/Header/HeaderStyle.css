@@ -1,0 +1,21 @@
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 100px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 #460072;
+}
+.header a {
+    font-size: 25px;
+    color: #262626;
+    font-weight: bold;
+}
+.header a:hover {
+    color: #888800;
+    text-decoration: none;
+}

@@ -1,0 +1,20 @@
+.genres {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-top: 30px;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+.movies__container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    row-gap: 18px;
+    margin-top: 30px;
+}

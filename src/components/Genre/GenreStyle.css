@@ -1,0 +1,13 @@
+.genre {
+    padding: 10px;
+    box-shadow: 0 0 5px 0 #460072;
+    border-radius: 15px;
+    background-color: #9700f8;
+}
+.genre:hover {
+    background-color:#f1f1f1;
+}
+a {
+    text-decoration: none;
+    color: #262626;
+}
